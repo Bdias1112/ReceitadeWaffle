@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+h1{
+    padding-top: 80px;
+    color: #1B1B1B;
+    font-weight: 700;
+}
+
+h2{
+    margin: 20px auto;
+    color:#1B1B1B;
+    font-weight: 700;
+}
+
+figure{
+    padding-top: 30px;
+}
+figure img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/*descrição da imagem */
+figcaption{
+    margin-top: auto;
+    text-align: right;
+    color: #8F8F8F;
+}
+
+#container{
+    justify-content: center;
+    text-align: center;
+    padding: 0 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*receita*/
+ul{
+    text-align: left;
+    padding: 0 24px;
+}
+
+ul li{
+    color: #39393A;
+    margin: 15px 0 auto;
+}
+
+ol{
+    text-align: left;
+    padding: 0 24px;
+   
+}
+
+ol li{
+    color: #39393A;
+    margin: 15px 0 auto;
+}
+
+
+
+/*informações adicionais*/
+#info-extra{
+
+    padding: 15px 24px;
+    margin: 15px 0 auto;
+    color: #39393A;
+}
+
+/*footer*/
+footer{
+    padding: 40px 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #8F8F8F;
+}
+
+
+
